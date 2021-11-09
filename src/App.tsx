@@ -100,8 +100,15 @@ function App() {
   return (
     <div className="App">
       <header>
-          JBrowse Genome View
+          <a href={"https://github.com/nathandunn/human-jbrowse-example"}>JBrowse Genome View in React on Github</a>
       </header>
+
+        <div>
+            <a href="https://jbrowse.org/code/jb2/v1.5.1/?config=test_data%2Fconfig_demo.json&session=local-u7LI7VmNQ">Fuller Demo</a>
+        </div>
+        <div>
+            <a href={"https://github.com/GMOD/jbrowse-components/blob/HEAD/products/jbrowse-react-linear-genome-view/docs/example.md"}>Further documentation</a>
+        </div>
         <div>
 
             <JBrowseLinearGenomeView viewState={state} />
